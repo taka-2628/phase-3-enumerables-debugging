@@ -8,8 +8,8 @@ def reverse_each_word(sentence)
   words.each do |word|
     reversed_words << word.reverse
   end
-  
-  puts reversed_words
+
+  puts reversed_words.join(" ")
 end
 
 reverse_each_word("Hello there, and how are you?")
