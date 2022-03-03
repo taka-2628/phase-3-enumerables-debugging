@@ -9,7 +9,7 @@ def reverse_each_word(sentence)
     reversed_words << word.reverse
   end
 
-  puts reversed_words.join(" ")
+  reversed_words.join(" ")
 end
 
-reverse_each_word("Hello there, and how are you?")
+puts reverse_each_word("Hello there, and how are you?")
